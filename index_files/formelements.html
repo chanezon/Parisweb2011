@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)http://markdalgleish.com/presentations/jquerymobile/jqm/formelements.html -->
+<html class="ui-mobile portrait undefined max-width-320px max-width-480px max-width-768px max-width-1024px"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"><!--<base href="http://markdalgleish.com/presentations/jquerymobile/jqm/">--><base href="."> 
+	<title>Form Elements</title> 
+	<link rel="stylesheet" href="http://markdalgleish.com/presentations/jquerymobile/jqm/media/jquery.mobile-1.0a4.1.min.css">
+	<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.0a4.1.min.js"></script>
+</head> 
+<body class="ui-mobile-viewport"> 
+
+<div data-role="page" data-theme="c" class="ui-page ui-body-c ui-page-active">
+
+	<div data-role="header" data-theme="b" class="ui-bar-b ui-header" role="banner">
+		<h1 class="ui-title" tabindex="0" role="heading" aria-level="1">Form Elements</h1>
+	</div>
+
+	<div data-role="content" class="ui-content" role="main">
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+	         <label for="textbox" class="ui-input-text">Textbox:</label> 
+	         <input type="text" name="textbox" id="textbox" value="" class="ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c"> 
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+	         <label for="textarea" class="ui-input-text">Textarea:</label> 
+	         <textarea name="textarea" id="textarea" value="" class="ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c"></textarea>
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+	         <label for="search" class="ui-input-text">Search:</label> 
+	         <div class="ui-input-search ui-shadow-inset ui-btn-corner-all ui-btn-shadow ui-icon-searchfield ui-body-c"><input type="true" data-type="search" name="search" id="search" value="" class="ui-input-text ui-body-null"><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" class="ui-input-clear ui-btn ui-btn-up-c ui-btn-icon-notext ui-btn-corner-all ui-shadow ui-input-clear-hidden" title="clear text" data-theme="c"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">clear text</span><span class="ui-icon ui-icon-delete ui-icon-shadow"></span></span></a></div> 
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+			<label for="slider" id="slider-label" class="ui-slider">Slider:</label> 
+			<select name="slider" id="slider" data-role="slider" class="ui-slider-switch"> 
+				<option value="0">Off</option>
+				<option value="1">On</option>
+			</select><div class="ui-slider ui-slider-switch ui-btn-down-c ui-btn-corner-all ui-slider-switch-a" role="application"><div class="ui-slider-labelbg ui-slider-labelbg-a ui-btn-active ui-btn-corner-left"></div><div class="ui-slider-labelbg ui-slider-labelbg-b ui-btn-down-c ui-btn-corner-right"></div><div class="ui-slider-inneroffset"><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" class="ui-slider-handle ui-btn ui-btn-up-c ui-btn-corner-all ui-shadow" data-theme="c" role="slider" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" aria-valuetext="Off" title="0" aria-labelledby="slider-label" style="left: 0%; "><span class="ui-slider-label ui-slider-label-a ui-btn-active ui-btn-corner-left" role="img">On</span><span class="ui-slider-label ui-slider-label-b ui-btn-down-c ui-btn-corner-right" role="img">Off</span><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text"></span></span></a></div></div>
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+			<label for="range" class="ui-input-text ui-slider" id="range-label">Range:</label>
+			<input type="number" data-type="range" name="range" id="range" value="0" min="0" max="10" class="ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c ui-slider-input"><div class="ui-slider  ui-btn-down-c ui-btn-corner-all" role="application"><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" class="ui-slider-handle ui-btn ui-btn-up-c ui-btn-corner-all ui-shadow" data-theme="c" role="slider" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" aria-valuetext="0" title="0" aria-labelledby="range-label" style="left: 0%; "><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text"></span></span></a></div> 
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+			<fieldset data-role="controlgroup" class="ui-corner-all ui-controlgroup ui-controlgroup-vertical"><div role="heading" class="ui-controlgroup-label">Checklist:</div><div class="ui-controlgroup-controls"> 
+				
+				<div class="ui-checkbox"><input type="checkbox" name="checkbox1" id="checkbox1"><label for="checkbox1" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-left ui-corner-top"><span class="ui-btn-inner ui-corner-top"><span class="ui-btn-text">HTML</span><span class="ui-icon ui-icon-ui-icon-checkbox-off ui-icon-checkbox-off"></span></span></label></div> 
+				 
+ 
+				<div class="ui-checkbox"><input type="checkbox" name="checkbox2" id="checkbox2"><label for="checkbox2" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-left"><span class="ui-btn-inner"><span class="ui-btn-text">CSS</span><span class="ui-icon ui-icon-ui-icon-checkbox-off ui-icon-checkbox-off"></span></span></label></div> 
+				 
+ 
+				<div class="ui-checkbox"><input type="checkbox" name="checkbox3" id="checkbox3"><label for="checkbox3" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-left ui-corner-bottom ui-controlgroup-last"><span class="ui-btn-inner ui-corner-bottom ui-controlgroup-last"><span class="ui-btn-text">JavaScript</span><span class="ui-icon ui-icon-ui-icon-checkbox-off ui-icon-checkbox-off"></span></span></label></div> 
+				
+		    </div></fieldset>
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+			<fieldset data-role="controlgroup" data-type="horizontal" class="ui-corner-all ui-controlgroup ui-controlgroup-horizontal"><div role="heading" class="ui-controlgroup-label">Horizontal Checklist:</div><div class="ui-controlgroup-controls"> 
+		    	
+				<div class="ui-checkbox"><input type="checkbox" name="checkbox4" id="checkbox4"><label for="checkbox4" data-theme="c" class="ui-btn ui-btn-up-c ui-corner-left"><span class="ui-btn-inner ui-corner-left"><span class="ui-btn-text">Tea</span></span></label></div> 
+				
+ 
+				<div class="ui-checkbox"><input type="checkbox" name="checkbox5" id="checkbox5"><label for="checkbox5" data-theme="c" class="ui-btn ui-btn-up-c ui-corner-right ui-controlgroup-last"><span class="ui-btn-inner ui-corner-right ui-controlgroup-last"><span class="ui-btn-text">Coffee</span></span></label></div> 
+				
+		    </div></fieldset> 
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+			<fieldset data-role="controlgroup" class="ui-corner-all ui-controlgroup ui-controlgroup-vertical"><div role="heading" class="ui-controlgroup-label">Radio Buttons:</div><div class="ui-controlgroup-controls">
+				
+					<div class="ui-radio"><input type="radio" name="radio1" id="radio1a" value="a"><label for="radio1a" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-left ui-corner-top"><span class="ui-btn-inner ui-corner-top"><span class="ui-btn-text">HTML5</span><span class="ui-icon ui-icon-ui-icon-radio-off ui-icon-radio-off"></span></span></label></div> 
+					
+
+					<div class="ui-radio"><input type="radio" name="radio1" id="radio1b" value="b"><label for="radio1b" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-left"><span class="ui-btn-inner"><span class="ui-btn-text">Flash</span><span class="ui-icon ui-icon-ui-icon-radio-off ui-icon-radio-off"></span></span></label></div> 
+					
+
+					<div class="ui-radio"><input type="radio" name="radio1" id="radio1c" value="c"><label for="radio1c" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-left ui-corner-bottom ui-controlgroup-last"><span class="ui-btn-inner ui-corner-bottom ui-controlgroup-last"><span class="ui-btn-text">Silverlight</span><span class="ui-icon ui-icon-ui-icon-radio-off ui-icon-radio-off"></span></span></label></div> 
+					
+			</div></fieldset>
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+			<fieldset data-role="controlgroup" data-type="horizontal" class="ui-corner-all ui-controlgroup ui-controlgroup-horizontal"><div role="heading" class="ui-controlgroup-label">Horizontal Radio Buttons:</div><div class="ui-controlgroup-controls">
+				
+					<div class="ui-radio"><input type="radio" name="radio2" id="radio2a" value="a"><label for="radio2a" data-theme="c" class="ui-btn ui-btn-up-c ui-corner-left"><span class="ui-btn-inner ui-corner-left"><span class="ui-btn-text">Tea</span></span></label></div> 
+					
+
+					<div class="ui-radio"><input type="radio" name="radio2" id="radio2b" value="b"><label for="radio2b" data-theme="c" class="ui-btn ui-btn-up-c ui-corner-right ui-controlgroup-last"><span class="ui-btn-inner ui-corner-right ui-controlgroup-last"><span class="ui-btn-text">Coffee</span></span></label></div> 
+					
+			</div></fieldset>
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+			<label for="select1" class="select ui-select">Standard Select:</label>
+			<div class="ui-select"><div data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-btn-corner-all ui-shadow"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">HTML5</span><span class="ui-icon ui-icon-arrow-d ui-icon-shadow"></span></span><select name="select1" id="select1">
+				<option value="1">HTML5</option>
+				<option value="2">Flash</option>
+				<option value="3">Silverlight</option>
+			</select></div></div>
+		</div>
+		
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+			<label for="select2" class="select ui-select">Custom Select:</label>
+			<div class="ui-select"><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" role="button" aria-haspopup="true" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-btn-corner-all ui-shadow"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">HTML5</span><span class="ui-icon ui-icon-arrow-d ui-icon-shadow"></span></span></a><select name="select2" id="select2" data-native-menu="false" tabindex="-1">
+				<option value="1">HTML5</option>
+				<option value="2">Flash</option>
+				<option value="3">Silverlight</option>
+			</select></div>
+		</div>
+		
+		<div data-theme="c" class="ui-btn ui-btn-up-c ui-btn-corner-all ui-shadow" aria-disabled="false"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Button</span></span><button name="button" class="ui-btn-hidden" aria-disabled="false">Button</button></div>
+		<div data-theme="c" class="ui-btn ui-btn-up-c ui-btn-corner-all ui-shadow" aria-disabled="false"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Submit</span></span><button type="submit" name="submit" class="ui-btn-hidden" aria-disabled="false">Submit</button></div>
+	</div>
+<div class="ui-selectmenu-screen ui-screen-hidden"></div><div class="ui-selectmenu ui-selectmenu-hidden ui-overlay-shadow ui-corner-all pop ui-body-a"><div class="ui-header ui-bar-c" style="display: none; "><h1 class="ui-title"></h1><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" class="ui-btn-left ui-btn ui-btn-up-c ui-btn-icon-notext ui-btn-corner-all ui-shadow" data-iconpos="notext" data-icon="delete" title="Close" data-theme="c" style="display: none; "><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow"></span></span></a></div><ul class="ui-selectmenu-list ui-listview" id="select2-menu" role="listbox" aria-labelledby="select2-button" data-theme="c"><li data-icon="false" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-li ui-btn-active" role="option" tabindex="0" data-theme="c" aria-selected="false"><div class="ui-btn-inner ui-li"><div class="ui-btn-text"><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" class="ui-link-inherit" aria-selected="true">HTML5</a></div></div></li> <li data-icon="false" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-li" role="option" tabindex="-1" data-theme="c" aria-selected="false"><div class="ui-btn-inner ui-li"><div class="ui-btn-text"><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" class="ui-link-inherit">Flash</a></div></div></li> <li data-icon="false" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-li" role="option" tabindex="-1" data-theme="c" aria-selected="false"><div class="ui-btn-inner ui-li"><div class="ui-btn-text"><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" class="ui-link-inherit">Silverlight</a></div></div></li></ul></div></div>
+
+
+
+<div class="ui-loader ui-body-a ui-corner-all" style="top: 240px; "><span class="ui-icon ui-icon-loading spin"></span><h1>loading</h1></div><div data-role="dialog" data-theme="b" class="ui-dialog ui-page ui-body-a" role="dialog"><div data-role="header" class="ui-corner-top ui-overlay-shadow ui-bar-a ui-header" role="banner"><a href="http://markdalgleish.com/presentations/jquerymobile/jqm/#" data-icon="delete" data-rel="back" data-iconpos="notext" class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-notext ui-btn-corner-all ui-shadow" title="Close" data-theme="a"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow"></span></span></a><div class="ui-title">Custom Select:</div></div><div data-role="content" class="ui-content ui-body-c ui-corner-bottom ui-overlay-shadow" role="main"></div></div></body></html>
